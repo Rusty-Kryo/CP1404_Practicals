@@ -6,15 +6,31 @@ password checker
 - returns stars if the input password is 10 characters long
 
 """
+menu = 'Enter Password'
 valid = 'Correct Password'
-invalid = 'Incorrect Password'
+not_valid = 'Incorrect Password'
 short = 'input too short'
-password = input("Enter password:")
 
-# checking password if it's correct
-if len(password) == 10:
+def main():
+    print(menu)
+
+    password = Password_getncheck()
+    valid
+
+
+def Password_getncheck():
+    password = input()
+    # checking password if it's correct
+    if len(password) <= 10:
+
+        print(short)
+
+    password_check(password)
+
+def password_check(password):
     if password == "Pythonista":
         print(valid)
-else:
-    print(short)
+        print('*' * len(password))
 
+
+main()
