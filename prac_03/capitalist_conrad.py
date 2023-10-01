@@ -14,11 +14,13 @@ MAX_DECREASE = 0.05  # 5%
 MIN_PRICE = 1  # changed from 0.01
 MAX_PRICE = 101.0  # changed from 1000
 INITIAL_PRICE = 10.0
-number_of_days = 0
-OUTPUT_FILE = 'capitalist_conrad.txt'
+number_of_days = 0  # variable for how long the simulation ran for in days
+OUTPUT_FILE = 'capitalist_conrad.txt'  # file name
 
 price = INITIAL_PRICE
 print(f"${price:,.2f}")
+
+out_file = open(OUTPUT_FILE, 'w')  # opens a file for writing
 
 while MIN_PRICE <= price <= MAX_PRICE:
     price_change = 0
@@ -36,8 +38,9 @@ while MIN_PRICE <= price <= MAX_PRICE:
     price *= (1 + price_change)
     number_of_days = number_of_days + 1
     print(f"On day {number_of_days} price is: ${price:,.2f}")
-    out_file = open(OUTPUT_FILE, 'w')
+    # File write
     print(f"On day {number_of_days} price is: ${price:,.2f}", file=out_file)
-    out_file.close()
+
+out_file.close()  # closes the file after writing/simulation
 
 
