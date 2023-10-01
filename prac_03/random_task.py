@@ -27,13 +27,15 @@
 import random
 q = True
 while q == True:
-    a = random.randrange(3, 10, 2)  # line 2
+    a = random.randint(5,20)  # line 1
+    b = random.randrange(3, 10, 2)  # line 2
+    c = random.uniform(2.5,5.5)  # line 3
+    d = random.randint(1, 100)  # line 4 for question 4
 
-    print(random.randint(5,20))  # line 1
     print(a)
-    print(random.uniform(2.5,5.5))  # line 3
-    print(random.randint(1, 100))  # line 4 for question 4
+    print(b)
+    print(c)
+    print(d)
 
-    if a == 4:
+    if b == 4:
         q = False
-
