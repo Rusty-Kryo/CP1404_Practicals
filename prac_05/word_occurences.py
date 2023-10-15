@@ -4,8 +4,8 @@
 word in the string.
 - this program is case-insensitive
 
-estimate: 1 hr
-actual:
+estimate: 1hr
+actual: 1hr  4mins
 
 """
 
