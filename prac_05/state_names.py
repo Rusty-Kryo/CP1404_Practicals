@@ -9,14 +9,14 @@ CODE_TO_NAME = {"QLD": "Queensland", "NSW": "New South Wales", "NT": "Northern T
 
 def main():
     print(CODE_TO_NAME)
-    while True:
-        state_code = input("Enter short state: ").upper()
-        while state_code != "":
-            if state_code in CODE_TO_NAME:
-                print(f"{state_code:4} is {CODE_TO_NAME[state_code]}")
-                break
-            else:
-                print("Invalid short state")
-                state_code = input("Enter short state: ").upper()
+    state_code = input("Enter short state: ").upper()
+
+    while state_code != "":
+        if state_code in CODE_TO_NAME:
+            print(f"{state_code:4}\tis\t{CODE_TO_NAME[state_code]}")
+            state_code = input("Enter short state: ").upper()
+        else:
+            print("Invalid short state")
+            state_code = input("Enter short state: ").upper()
 
 main()
