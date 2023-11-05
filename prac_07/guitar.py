@@ -1,7 +1,4 @@
 """
-estimated: 10 mins
-actual: 11 mins
-
 GitHub repository link: https://github.com/Rusty-Kryo/CP1404_Practicals
 
 edited to satisfy clean coding

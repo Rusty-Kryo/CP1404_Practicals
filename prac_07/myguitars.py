@@ -1,6 +1,6 @@
 """
-estimate:2 hr 45 mins (7:48 pm)
-actual:
+estimate:2 hrs 45 mins
+actual: 2 hrs 3 mins
 
 GitHub repository link: https://github.com/Rusty-Kryo/CP1404_Practicals
 
