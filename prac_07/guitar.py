@@ -6,6 +6,7 @@ GitHub repository link: https://github.com/Rusty-Kryo/CP1404_Practicals
 
 edited to satisfy clean coding
 
+Class for the more guitars task,
 """
 
 class Guitar:
@@ -29,5 +30,5 @@ class Guitar:
         return f"{self.name} ({self.year}) : ${self.cost:.2f}"
 
     def __lt__(self, other):
-
-        return
+        """ Checks which guitar is older"""
+        return self.year < other.year
