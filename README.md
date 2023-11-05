@@ -10,7 +10,7 @@ recently learned that all the assumption I had were wrong. The coding tht I know
 
 ## The Programming Pattern
 
-- In writing the following programs I Attempted to use [PEP8](https://peps.python.org/pep-0008/) as the primary
+- In writing the following programs I Attempted to use the [programming pattern](https://github.com/CP1404/Starter/wiki/Programming-Patterns) in the wiki as the primary
   programming pattern.
 
 ## This Repository Contains:
