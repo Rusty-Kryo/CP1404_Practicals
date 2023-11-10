@@ -20,6 +20,7 @@ class BoxLayoutDemo(App):
         # print("test") for debugging
         self.root.ids.output_label.text = f"Hello {self.root.ids.input_name.text}"
 
+
     # handles the event when clear button is pressed
     def handle_clear(self):
         # sets the input_name into blank ("")
