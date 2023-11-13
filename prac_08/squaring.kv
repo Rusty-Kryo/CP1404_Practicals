@@ -1,0 +1,22 @@
+BoxLayout:
+    orientation: 'vertical'
+    BoxLayout:
+        orientation: 'horizontal'
+        TextInput:
+            id: input_number
+            text: ''
+            multiline: False
+        Button:
+            text: 'Square'
+            # the following line specifies the function in the app class to call when the button is pressed
+            on_press: app.handle_calculate(input_number.text)
+
+        Label:
+            id: output_result
+            text:"result"
+            color: (1,0.63,0.79, 1)
+
+    BoxLayout:
+    Label:
+        text: "Enter a number and press 'Square'"
+        color: (1, 1, 1, 1)
