@@ -1,6 +1,6 @@
 """
 estimate: 1hr 30mins
-actual:
+actual: 1hr
 
 This code is the subclass of car called unreliable car for
 week 9 coding practical.
