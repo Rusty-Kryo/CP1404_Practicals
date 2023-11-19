@@ -1,10 +1,4 @@
 """
-estimate:
-actual:
-
-"""
-
-"""
 CP1404/CP5632 Practical - Suggested Solution
 Guitar class
 """

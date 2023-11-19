@@ -1,9 +1,3 @@
-"""
-estimate:
-actual:
-
-"""
-
 """Musician class for CP1404"""
 
 
